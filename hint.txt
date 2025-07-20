@@ -1,0 +1,2 @@
+In the CSS, remove the default list-style (as the bullet point has to remain vertically centered) and add it as a ::before pseudo element on the <li> 
+Add the ":" as an ::after pseudo element on the <strong>
