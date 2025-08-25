@@ -64,16 +64,16 @@ section:nth-child(1) {
   background-color: var(--rose_50);
 }
 
-li {
-  list-style-type: none;
-  margin-bottom: 1em;
-  font-family: Outfit; 
-  color: var(--stone_600);  
-}
-
-li:before  {
-  content:"• ";
-  margin-right: 1.1em;
+ul {
+  li {
+    display: flex;
+    &::before {
+      content: "";
+      display: list-item;
+      align-self: center;
+    
+    }
+  }
 }
 
 strong:after {
