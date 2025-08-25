@@ -64,17 +64,20 @@ section:nth-child(1) {
   background-color: var(--rose_50);
 }
 
+
 ul {
   li {
     display: flex;
+    font-family: Outfit; 
+    gap: 0.5em;
     &::before {
-      content: "";
-      display: list-item;
+      content: "* ";
       align-self: center;
-    
-    }
+      margin-right: 1.5em; 
+   }
   }
 }
+
 
 strong:after {
   content: ':'; 
