@@ -35,8 +35,6 @@ h1{
   font-family: "Young Serif" ;
   font-weight: 400;
   font-size: 2.25rem;
-  padding-left: 1em;
-  padding-right: 1em; 
   line-height: 1;
   margin-bottom: 0.8em; 
   margin-top: 1em; 
@@ -51,21 +49,34 @@ h2 {
 
 }
 
-section:nth-child(2) {
-  padding-left: 1.9em;
-  padding-right: 1.9em;
+article div {
+  padding: 1.9em 1.9em; 
+}
+
+article div p {
   font-family: Outfit; 
   color: var(--stone_600);
   line-height: 1.6;
   margin-bottom: 1em; 
 }
 
-section:nth-child(3)  {
+section:nth-child(1) {
   background-color: var(--rose_50);
-  padding-left: 3.5em;
-  padding-right: 4.2em;
-  padding-top: 2em; 
 }
 
+li {
+  list-style-type: none;
+  margin-bottom: 1em;
+  font-family: Outfit; 
+  color: var(--stone_600);  
+}
 
+li:before  {
+  content:"• ";
+  margin-right: 1.1em;
+}
+
+strong:after {
+  content: ':'; 
+}
 
